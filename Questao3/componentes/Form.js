@@ -21,11 +21,13 @@ export default function() {
 const styles = StyleSheet.create({
   text: {
     fontWeight: 'bold',
-    fontSize: 15
+    fontSize: 25
   },
   input: {
-    borderWidth: 1,
-    borderColor:'#000'
+    backgroundColor: '#f4f4f4',
+    height: 50,
+    width: 400,
+    borderRadius: 15
   },
   button: {
     marginTop: 10,
